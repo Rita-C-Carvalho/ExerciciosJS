@@ -1,13 +1,9 @@
-var jogo = [];
-var n = window.document.querySelector(`input#n`);
-var n = Number(n.value);
-var res = window.document.querySelector(`div.res`);
-var i = 1;
-
     function tamanho(){
+        var jogo = [];
         var n = window.document.querySelector(`input#n`);
         var n = Number(n.value);
         var res = window.document.querySelector(`div.res`);
+        var i = 1;
     res.innerHTML = `<p> O tamanho do <strong>array</strong> é <strong>${n}</strong> `;
 
     while(i<=n){
